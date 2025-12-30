@@ -1,5 +1,7 @@
 <img width="1536" height="1024" alt="ChatGPT_Image_2025_12_30_11_24_18" src="https://github.com/user-attachments/assets/6857892f-f320-48f8-8ee4-4be17a77fc10" />
 
+# 
+
 # 👨‍💻👩‍💻**Team introduction**
 
 - 👨‍💻 권민석 — Backend
@@ -31,3 +33,16 @@
 단절된 이웃 관계라는 문제를 해결하기 위해
 
 공동구매를 매개로 **사람과 생활을 연결하는 구조**를 제안한다.
+
+## 📍 프로젝트 기획안
+
+https://docs.google.com/document/d/1VzyXLjJqwQZyX-jUeKYUx8Nn9bLWR6anQaBtFDBwXP8/edit?usp=sharing
+
+## 📍 요구사항 정의서
+
+https://docs.google.com/spreadsheets/d/1s8f2AO_lHdU6ukJuU6k1uWxv1znY2aiRYfetCYQp9B4/edit?usp=sharing
+
+## 📍 ERD
+![DDing_2](https://github.com/user-attachments/assets/427dc229-dfde-4ff1-a329-088245cdd44d)
+
+
