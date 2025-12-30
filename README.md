@@ -36,13 +36,24 @@
 
 ## 📍 프로젝트 기획안
 
+
+
 https://docs.google.com/document/d/1VzyXLjJqwQZyX-jUeKYUx8Nn9bLWR6anQaBtFDBwXP8/edit?usp=sharing
+
+
 
 ## 📍 요구사항 정의서
 
+
+
 https://docs.google.com/spreadsheets/d/1s8f2AO_lHdU6ukJuU6k1uWxv1znY2aiRYfetCYQp9B4/edit?usp=sharing
 
+
+
 ## 📍 ERD
+
+
 ![DDing_2](https://github.com/user-attachments/assets/427dc229-dfde-4ff1-a329-088245cdd44d)
+
 
 
