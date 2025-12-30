@@ -34,6 +34,10 @@
 
 공동구매를 매개로 **사람과 생활을 연결하는 구조**를 제안한다.
 
+## 📍 기술스택
+![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
+
+
 ## 📍 프로젝트 기획안
 
  [Google Docs 기획안](https://docs.google.com/document/d/1VzyXLjJqwQZyX-jUeKYUx8Nn9bLWR6anQaBtFDBwXP8/edit?tab=t.0)
@@ -62,6 +66,7 @@
 <img width="1067" height="644" alt="3D58072F-61AD-47EA-8278-B7B328D72380" src="https://github.com/user-attachments/assets/d8a05e1a-f8f9-4b19-8d67-a88a90b9189c" />
 
 </details>
+
 
 
 
