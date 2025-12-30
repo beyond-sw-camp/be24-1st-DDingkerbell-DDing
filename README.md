@@ -37,7 +37,8 @@
 ## 📍 기술스택
 ![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
 
-![jm].(https://jmeter.apache.org/).
+![js](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+
 
 
 ## 📍 프로젝트 기획안
@@ -68,6 +69,7 @@
 <img width="1067" height="644" alt="3D58072F-61AD-47EA-8278-B7B328D72380" src="https://github.com/user-attachments/assets/d8a05e1a-f8f9-4b19-8d67-a88a90b9189c" />
 
 </details>
+
 
 
 
