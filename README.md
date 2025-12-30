@@ -35,33 +35,42 @@
 공동구매를 매개로 **사람과 생활을 연결하는 구조**를 제안한다.
 
 ## 📍 프로젝트 기획안
+<details>
+<summary>내용 보기</summary>
 
 
+ [Google Docs 기획안]https://docs.google.com/document/d/1VzyXLjJqwQZyX-jUeKYUx8Nn9bLWR6anQaBtFDBwXP8/edit?tab=t.0
 
-https://docs.google.com/document/d/1VzyXLjJqwQZyX-jUeKYUx8Nn9bLWR6anQaBtFDBwXP8/edit?tab=t.0
-
-
+</details>
 
 
 ## 📍 요구사항 정의서
+<details>
+<summary>요구사항 펼쳐보기</summary>
 
 
+[요구사항 정의서]https://docs.google.com/spreadsheets/d/1vy4meR1GHU6tSzcL6rbRh7OsKovU3FEhKYtpDsHK8-s/edit?usp=sharing
 
-https://docs.google.com/spreadsheets/d/1vy4meR1GHU6tSzcL6rbRh7OsKovU3FEhKYtpDsHK8-s/edit?usp=sharing
-
-
+</details>
 
 
 
 ## 📍 ERD
-
+<details>
+<summary>ERD 펼쳐보기</summary>
 
 ![DDing_2](https://github.com/user-attachments/assets/427dc229-dfde-4ff1-a329-088245cdd44d)
 
+</details>
+
 ## 📍 시스템 아키텍처
+<details>
+<summary>시스템 아키텍쳐 펼쳐보기</summary>
+
 
 <img width="1067" height="644" alt="3D58072F-61AD-47EA-8278-B7B328D72380" src="https://github.com/user-attachments/assets/d8a05e1a-f8f9-4b19-8d67-a88a90b9189c" />
 
+</details>
 
 
 
