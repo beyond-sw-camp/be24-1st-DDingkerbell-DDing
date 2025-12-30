@@ -65,7 +65,8 @@
 <summary>ERD 펼쳐보기</summary>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/427dc229-dfde-4ff1-a329-088245cdd44d" width="510">
+  <img width="1652" height="1338" alt="ERD" src="https://github.com/user-attachments/assets/9f98e442-0114-480c-9e9a-c967771dabef" />
+
 </p>
 
 </details>
@@ -79,6 +80,7 @@
 
 본 구조에서는 HAProxy를 DB 접근의 단일 진입점으로 두어 쓰기 트래픽은 Master DB로 직접 전달하고, 읽기 트래픽은 Slave DB 풀로 분산 처리하였다. 이를 통해 조회 부하를 분산시키고 Master DB를 보호함으로써 성능 저하 및 병목 현상을 방지하도록 설계하였다.
 </details>
+
 
 
 
