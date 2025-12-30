@@ -35,7 +35,8 @@
 공동구매를 매개로 **사람과 생활을 연결하는 구조**를 제안한다.
 
 ## 📍 기술스택
-![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) ![mariadb](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![haproxy](https://camo.githubusercontent.com/6bcf8603439a2934f709666a80c2ffdac14d64552d02e5fa1219a2a6f38428ad/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f484150726f78792d3145393046463f7374796c653d666f722d7468652d6261646765266c6f676f3d686170726f7879266c6f676f436f6c6f723d7768697465)
+![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) ![mariadb](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![haproxy](https://camo.githubusercontent.com/6bcf8603439a2934f709666a80c2ffdac14d64552d02e5fa1219a2a6f38428ad/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f484150726f78792d3145393046463f7374796c653d666f722d7468652d6261646765266c6f676f3d686170726f7879266c6f676f436f6c6f723d7768697465) ![JMeter](https://img.shields.io/badge/JMeter-D22128?style=for-the-badge&logo=apachejmeter&logoColor=white)
+
 
 
 ## 📍 프로젝트 기획안
@@ -67,6 +68,7 @@
 
 본 구조에서는 HAProxy를 DB 접근의 단일 진입점으로 두어 쓰기 트래픽은 Master DB로 직접 전달하고, 읽기 트래픽은 Slave DB 풀로 분산 처리하였다. 이를 통해 조회 부하를 분산시키고 Master DB를 보호함으로써 성능 저하 및 병목 현상을 방지하도록 설계하였다.
 </details>
+
 
 
 
