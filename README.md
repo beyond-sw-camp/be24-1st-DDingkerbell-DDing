@@ -57,6 +57,9 @@ https://docs.google.com/spreadsheets/d/1l0zo6FTcLmZjO-D7TinulU2ccYCoTtzpoYZIytlQ
 
 ## 📍 시스템 아키텍처
 
+<img width="1067" height="644" alt="3D58072F-61AD-47EA-8278-B7B328D72380" src="https://github.com/user-attachments/assets/d8a05e1a-f8f9-4b19-8d67-a88a90b9189c" />
+
+
 
 
 
