@@ -5,11 +5,11 @@
 
 # 👨‍💻👩‍💻**Team introduction**
 
-- 👨‍💻 [권민석](https://github.com/RIMIN0650) — Backend
-- 👩‍💻 [김사라](https://github.com/saralove20) — Backend
-- 👩‍💻 [김미정](https://github.com/mihub02) — Backend
-- 👨‍💻 [노승찬](https://github.com/seungchan-0629) — Backend
-- 👨‍💻 [이한별](https://github.com/sole0714) — Backend
+## - 👨‍💻 [권민석](https://github.com/RIMIN0650) — Backend
+## - 👩‍💻 [김사라](https://github.com/saralove20) — Backend
+## - 👩‍💻 [김미정](https://github.com/mihub02) — Backend
+## - 👨‍💻 [노승찬](https://github.com/seungchan-0629) — Backend
+## - 👨‍💻 [이한별](https://github.com/sole0714) — Backend
 
 ## 📍 위치 기반 공동구매 매칭 플랫폼
 
@@ -80,6 +80,7 @@
 
 본 구조에서는 HAProxy를 DB 접근의 단일 진입점으로 두어 쓰기 트래픽은 Master DB로 직접 전달하고, 읽기 트래픽은 Slave DB 풀로 분산 처리하였다. 이를 통해 조회 부하를 분산시키고 Master DB를 보호함으로써 성능 저하 및 병목 현상을 방지하도록 설계하였다.
 </details>
+
 
 
 
