@@ -56,7 +56,7 @@ https://docs.google.com/spreadsheets/d/1l0zo6FTcLmZjO-D7TinulU2ccYCoTtzpoYZIytlQ
 ![DDing_2](https://github.com/user-attachments/assets/427dc229-dfde-4ff1-a329-088245cdd44d)
 
 ## 📍 시스템 아키텍처
-<img width="810" height="448" alt="시스템 아키텍처" src="https://github.com/user-attachments/assets/4bb47f1f-5683-45fd-a02d-1535359b7e97" />
+
 
 
 
