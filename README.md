@@ -65,7 +65,8 @@
 <summary>ERD 펼쳐보기</summary>
 
 <p align="center">
-  <img width="1000" height="1338" alt="ERD" src="https://github.com/user-attachments/assets/9f98e442-0114-480c-9e9a-c967771dabef" />
+  <img width="976" height="568" alt="시스템 아키텍처 3D" src="https://github.com/user-attachments/assets/3f1652df-470b-4733-ae02-5d6437fcc320" />
+
 
 </p>
 
@@ -91,6 +92,7 @@
 <summary>부하 테스트 후 펼쳐보기</summary>
 
 </details>
+
 
 
 
