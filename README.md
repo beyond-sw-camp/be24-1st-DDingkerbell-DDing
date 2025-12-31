@@ -1,4 +1,4 @@
-<p align="center">
+<img width="976" height="568" alt="시스템 아키텍처 3D" src="https://github.com/user-attachments/assets/75974723-c2d1-415b-8cc5-30357144ac77" /><p align="center">
 <img width="500" alt="ChatGPT_Image_2025_12_30_11_24_18" src="https://github.com/user-attachments/assets/6857892f-f320-48f8-8ee4-4be17a77fc10" />
 
 # 
@@ -76,7 +76,7 @@
 <summary>시스템 아키텍쳐 펼쳐보기</summary>
 
  <p align="center">
-<img width="600" alt="3D58072F-61AD-47EA-8278-B7B328D72380" src="https://github.com/user-attachments/assets/d8a05e1a-f8f9-4b19-8d67-a88a90b9189c" />
+<img width="600" alt="3D58072F-61AD-47EA-8278-B7B328D72380" src=<img width="976" height="568" alt="시스템 아키텍처 3D" src="https://github.com/user-attachments/assets/1b275828-c46a-4989-917d-037cff6f13c9" />
 
 본 구조에서는 HAProxy를 DB 접근의 단일 진입점으로 두어 쓰기 트래픽은 Master DB로 직접 전달하고, 읽기 트래픽은 Slave DB 풀로 분산 처리하였다. 이를 통해 조회 부하를 분산시키고 Master DB를 보호함으로써 성능 저하 및 병목 현상을 방지하도록 설계하였다.
 </details>
@@ -91,6 +91,7 @@
 <summary>부하 테스트 후 펼쳐보기</summary>
 
 </details>
+
 
 
 
