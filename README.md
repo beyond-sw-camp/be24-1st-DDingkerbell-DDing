@@ -94,6 +94,7 @@ Number of threads : 2000
 
 list 테이블
 <img width="940" height="51" alt="image" src="https://github.com/user-attachments/assets/9e218f62-d597-42d7-b081-1df7fed7bf01" />
+
 SELECT DISTINCT u.idx, u.email
 FROM list l
 JOIN user u
@@ -104,6 +105,7 @@ WHERE l.post_area LIKE 'seoul%'
 
 payment 테이블
 <img width="940" height="54" alt="image" src="https://github.com/user-attachments/assets/2f1235d9-0a82-498c-bbba-a36535b9f093" />
+
 SELECT p.idx, p.card_company, p.pay_status, p.created_at, u.email
 FROM payment p
 JOIN user u
@@ -114,6 +116,7 @@ ORDER BY p.created_at DESC;
 
 profile 테이블
 <img width="940" height="117" alt="image" src="https://github.com/user-attachments/assets/2495116b-573c-49b9-ab22-bc3146d69a52" />
+
 SELECT name, nickname, gender, birthdate, phone_nember, user_area, bio, profile_image
 FROM profile
 WHERE user_idx = 5;
@@ -122,6 +125,7 @@ WHERE user_idx = 5;
 
 review 테이블
 <img width="940" height="60" alt="image" src="https://github.com/user-attachments/assets/d9c5b3cd-122f-45e6-9b22-5961702f20ef" />
+
 SELECT idx, subject_user_idx, score, content, created_at
 FROM review
 WHERE object_user_idx = 100200
@@ -140,6 +144,7 @@ LIMIT 20;
 
 list 테이블
 <img width="940" height="82" alt="image" src="https://github.com/user-attachments/assets/022824a9-36f0-4082-9c46-3cfbdb599722" />
+
 SELECT u.idx, u.email
 FROM user u
 JOIN (
@@ -154,6 +159,7 @@ ON u.idx = l.user_idx;
 
 payment 테이블
 <img width="940" height="62" alt="image" src="https://github.com/user-attachments/assets/98e3ea3b-1d24-4486-9fd5-7722c6d3ad3f" />
+
 SELECT p.idx, p.card_company, p.pay_status, p.created_at, u.email 
 FROM payment p JOIN user u ON p.user_idx = u.idx
 WHERE p.pay_status = 'COMPLETE' ORDER BY p.created_at DESC;
@@ -161,12 +167,14 @@ WHERE p.pay_status = 'COMPLETE' ORDER BY p.created_at DESC;
 
 profile 테이블
 <img width="940" height="54" alt="image" src="https://github.com/user-attachments/assets/9b774f11-d8ef-4720-b4fa-af74d7c03941" />
+
 SELECT name, nickname, gender, birthdate, phone_nember, user_area, bio, profile_image
 FROM profile
 WHERE user_idx = 5;
 
 review 테이블
 <img width="940" height="58" alt="image" src="https://github.com/user-attachments/assets/30f0bc8f-b44d-4922-acb0-25ce3b7ca140" />
+
 SELECT idx, subject_user_idx, score, content, created_at
 FROM review
 WHERE object_user_idx = 100200
@@ -176,6 +184,7 @@ LIMIT 20;
 
 
 </details>
+
 
 
 
