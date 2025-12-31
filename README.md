@@ -126,12 +126,6 @@ WHERE user_idx = 5;
 review 테이블
 <img width="940" height="60" alt="image" src="https://github.com/user-attachments/assets/d9c5b3cd-122f-45e6-9b22-5961702f20ef" />
 
-SELECT idx, subject_user_idx, score, content, created_at
-FROM review
-WHERE object_user_idx = 100200
-ORDER BY created_at DESC
-LIMIT 20;
-
 
 
 
@@ -156,6 +150,15 @@ JOIN (
 ) l
 ON u.idx = l.user_idx;
 
+응답 시간 감소율
+Average : 22054 > 19183   --> 13% 향상
+
+처리량 감소율
+Throughput : 13.0 > 46.9   --> 260% 향상
+
+
+
+
 
 payment 테이블
 <img width="940" height="62" alt="image" src="https://github.com/user-attachments/assets/98e3ea3b-1d24-4486-9fd5-7722c6d3ad3f" />
@@ -175,15 +178,12 @@ WHERE user_idx = 5;
 review 테이블
 <img width="940" height="58" alt="image" src="https://github.com/user-attachments/assets/30f0bc8f-b44d-4922-acb0-25ce3b7ca140" />
 
-SELECT idx, subject_user_idx, score, content, created_at
-FROM review
-WHERE object_user_idx = 100200
-ORDER BY created_at DESC
-LIMIT 20;
+
 
 
 
 </details>
+
 
 
 
