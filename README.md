@@ -65,7 +65,8 @@
 <summary>ERD 펼쳐보기</summary>
 
 <p align="center">
-  <img width="976" height="568" alt="시스템 아키텍처 3D" src="https://github.com/user-attachments/assets/3f1652df-470b-4733-ae02-5d6437fcc320" />
+  <img width="1652" height="1338" alt="ERD" src="https://github.com/user-attachments/assets/4872f5d6-79b2-484b-ad6f-3a3381a442f0" />
+
 
 
 </p>
@@ -76,8 +77,8 @@
 <details>
 <summary>시스템 아키텍쳐 펼쳐보기</summary>
 
- <p align="center">
-<img width="976" height="568" alt="시스템 아키텍처 3D" src="https://github.com/user-attachments/assets/1b275828-c46a-4989-917d-037cff6f13c9" />
+<p align="center">
+ <img width="976" height="568" alt="시스템 아키텍처 3D" src="https://github.com/user-attachments/assets/1b275828-c46a-4989-917d-037cff6f13c9" />
 
 본 구조에서는 HAProxy를 DB 접근의 단일 진입점으로 두어 쓰기 트래픽은 Master DB로 직접 전달하고, 읽기 트래픽은 Slave DB 풀로 분산 처리하였다. 이를 통해 조회 부하를 분산시키고 Master DB를 보호함으로써 성능 저하 및 병목 현상을 방지하도록 설계하였다.
 </details>
@@ -92,6 +93,7 @@
 <summary>부하 테스트 후 펼쳐보기</summary>
 
 </details>
+
 
 
 
