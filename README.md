@@ -1,4 +1,4 @@
-
+<p align="center">
 <img width="500" alt="ChatGPT_Image_2025_12_30_11_24_18" src="https://github.com/user-attachments/assets/6857892f-f320-48f8-8ee4-4be17a77fc10" />
 
 # 
@@ -92,6 +92,7 @@
 <summary>부하 테스트 후 펼쳐보기</summary>
 
 </details>
+
 
 
 
