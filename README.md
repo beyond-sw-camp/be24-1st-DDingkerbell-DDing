@@ -159,13 +159,18 @@ Throughput : 13.0 > 46.9   --> 260% 향상
 
 
 
-
 payment 테이블
 <img width="940" height="62" alt="image" src="https://github.com/user-attachments/assets/98e3ea3b-1d24-4486-9fd5-7722c6d3ad3f" />
 
 SELECT p.idx, p.card_company, p.pay_status, p.created_at, u.email 
 FROM payment p JOIN user u ON p.user_idx = u.idx
 WHERE p.pay_status = 'COMPLETE' ORDER BY p.created_at DESC;
+
+응답 시간 감소율
+Average : 8213 > 56  --> 98% 향상
+
+처리량 감소율
+Throughput : 112.5 > 994.0  --> 783% 향상
 
 
 profile 테이블
@@ -175,14 +180,25 @@ SELECT name, nickname, gender, birthdate, phone_nember, user_area, bio, profile_
 FROM profile
 WHERE user_idx = 5;
 
+응답 시간 감소율
+Average : 12237 > 370  --> 96% 향상
+
+처리량 감소율
+Throughput : 92.2 > 840.0  --> 811% 향상
+
+
 review 테이블
 <img width="940" height="58" alt="image" src="https://github.com/user-attachments/assets/30f0bc8f-b44d-4922-acb0-25ce3b7ca140" />
 
+응답 시간 감소율
+Average : 484 > 84  --> 82% 향상
 
-
+처리량 감소율
+Throughput : 802.9 > 990.1  --> 23% 향상
 
 
 </details>
+
 
 
 
