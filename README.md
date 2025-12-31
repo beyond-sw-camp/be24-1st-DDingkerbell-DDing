@@ -150,11 +150,13 @@ JOIN (
 ) l
 ON u.idx = l.user_idx;
 
-응답 시간 감소율
-Average : 22054 > 19183   --> 13% 향상
+## 4️⃣ 추가 성능 개선 예시
 
-처리량 감소율
-Throughput : 13.0 > 46.9   --> 260% 향상
+### 성능 개선
+| 지표 | 개선 전 | 개선 후 | 향상율 |
+|------|---------|---------|--------|
+| 평균 응답 시간 (Average) | 22054 ms | 19183 ms | ✅ **13% 감소** |
+| 처리량 (Throughput) | 13.0/sec | 46.9/sec | 🚀 **260% 증가** |
 
 
 
@@ -166,11 +168,11 @@ SELECT p.idx, p.card_company, p.pay_status, p.created_at, u.email
 FROM payment p JOIN user u ON p.user_idx = u.idx
 WHERE p.pay_status = 'COMPLETE' ORDER BY p.created_at DESC;
 
-응답 시간 감소율
-Average : 8213 > 56  --> 98% 향상
+| 지표                 | 개선 전      | 개선 후      | 향상율            |
+| ------------------ | --------- | --------- | -------------- |
+| 평균 응답 시간 (Average) | 8213 ms   | 56 ms     | ✅ **98% 감소**   |
+| 처리량 (Throughput)   | 112.5/sec | 994.0/sec | 🚀 **783% 증가** |
 
-처리량 감소율
-Throughput : 112.5 > 994.0  --> 783% 향상
 
 
 profile 테이블
@@ -180,11 +182,11 @@ SELECT name, nickname, gender, birthdate, phone_nember, user_area, bio, profile_
 FROM profile
 WHERE user_idx = 5;
 
-응답 시간 감소율
-Average : 12237 > 370  --> 96% 향상
+| 지표                 | 개선 전     | 개선 후      | 향상율            |
+| ------------------ | -------- | --------- | -------------- |
+| 평균 응답 시간 (Average) | 12237 ms | 370 ms    | ✅ **96% 감소**   |
+| 처리량 (Throughput)   | 92.2/sec | 840.0/sec | 🚀 **811% 증가** |
 
-처리량 감소율
-Throughput : 92.2 > 840.0  --> 811% 향상
 
 
 review 테이블
@@ -198,14 +200,11 @@ review 테이블
 
 
 
-응답 시간 감소율
-Average : 484 > 84  --> 82% 향상
 
-처리량 감소율
-Throughput : 802.9 > 990.1  --> 23% 향상
 
 
 </details>
+
 
 
 
