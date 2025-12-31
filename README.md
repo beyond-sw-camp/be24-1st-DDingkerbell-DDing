@@ -190,6 +190,14 @@ Throughput : 92.2 > 840.0  --> 811% 향상
 review 테이블
 <img width="940" height="58" alt="image" src="https://github.com/user-attachments/assets/30f0bc8f-b44d-4922-acb0-25ce3b7ca140" />
 
+
+| 지표                 | 개선 전      | 개선 후      | 향상율           |
+| ------------------ | --------- | --------- | ------------- |
+| 평균 응답 시간 (Average) | 484 ms    | 84 ms     | ✅ **82% 감소**  |
+| 처리량 (Throughput)   | 802.9/sec | 990.1/sec | 🚀 **23% 증가** |
+
+
+
 응답 시간 감소율
 Average : 484 > 84  --> 82% 향상
 
@@ -198,6 +206,7 @@ Throughput : 802.9 > 990.1  --> 23% 향상
 
 
 </details>
+
 
 
 
