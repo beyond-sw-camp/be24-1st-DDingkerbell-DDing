@@ -1,4 +1,4 @@
-<img width="976" height="568" alt="시스템 아키텍처 3D" src="https://github.com/user-attachments/assets/75974723-c2d1-415b-8cc5-30357144ac77" /><p align="center">
+
 <img width="500" alt="ChatGPT_Image_2025_12_30_11_24_18" src="https://github.com/user-attachments/assets/6857892f-f320-48f8-8ee4-4be17a77fc10" />
 
 # 
